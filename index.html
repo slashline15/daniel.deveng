@@ -1,0 +1,887 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <title>Daniel Alves - Engenheiro Civil</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com/">
+  <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin="">
+  <link rel="stylesheet" href="css/all.min.css">
+
+  <link rel="stylesheet" href="css/main.css">
+  <style>
+    .projects-wrapper {
+      display: flex !important;
+      gap: 2rem !important;
+    }
+
+    .project-card {
+      opacity: 1 !important;
+    }
+  </style>
+</head>
+
+<body class="dark-mode">
+  <!-- Partículas de fundo -->
+  <div class="particles">
+    <span class="particle"></span>
+    <span class="particle"></span>
+    <span class="particle"></span>
+    <span class="particle"></span>
+    <span class="particle"></span>
+    <span class="particle"></span>
+    <span class="particle"></span>
+    <span class="particle"></span>
+    <span class="particle"></span>
+    <span class="particle"></span>
+  </div>
+  <div class="scroll-progress-container">
+    <div class="scroll-progress-bar"></div>
+  </div>
+
+  <header class="">
+    <div class="container">
+      <div class="logo">
+        <h1>DA</h1>
+      </div>
+      <nav>
+        <ul class="nav-links">
+          <li><a href="#home" class="nav-link">Início</a></li>
+          <li><a href="#about" class="nav-link">Sobre</a></li>
+          <li><a href="#skills" class="nav-link">Habilidades</a></li>
+          <li><a href="#contact" class="nav-link">Contato</a></li>
+        </ul>
+        <div class="theme-toggle">
+          <i class="fas fa-sun"></i>
+          <label class="switch">
+            <input type="checkbox" id="theme-switch">
+            <span class="slider round"></span>
+          </label>
+          <i class="fas fa-moon"></i>
+        </div>
+        <div class="hamburger">
+          <div class="bar"></div>
+          <div class="bar"></div>
+          <div class="bar"></div>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <section id="home" class="hero">
+    <div class="particle-background"></div>
+    <div class="dynamic-background"></div>
+    <div class="container">
+      <div class="hero-content glass-card">
+        <h1 class="hero-title">Daniel Alves</h1>
+        <h2 class="hero-subtitle">
+          <span id="typing-text"></span>
+          <span class="cursor">|</span>
+        </h2>
+        <p class="hero-description">Engenheiro civil com mão na massa, programador autodidata com sede de resolver
+          problema. Unindo tecnologia e experiência de obra pra entregar resultado de verdade. Precisa de algo? Bora
+          conversar.</p>
+        <div class="hero-cta">
+          <a href="#contact" class="btn btn-primary btn-glass">Entre em contato</a>
+          <a href="#about" class="btn btn-secondary">Saiba mais</a>
+        </div>
+      </div>
+      <div class="hero-image">
+        <div class="profile-shape">
+          <img src="images/profile.jpg" alt="Daniel Alves - Engenheiro Civil" class="profile-image">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="about" class="about">
+    <div class="container">
+      <div class="section-header">
+        <h2>Sobre mim</h2>
+        <div class="section-line"></div>
+      </div>
+      <div class="about-content">
+        <div class="about-image fade-in appear slide-in-left" data-animation="slide-in-left">
+          <div class="about-image-container">
+            <img src="images/about.png" alt="Foto de Ação Técnica">
+          </div>
+        </div>
+        <div class="about-text fade-in appear slide-in-right" data-animation="slide-in-right">
+          <h3>Quem sou eu</h3>
+          <p>Sou engenheiro civil desde 2021, com experiência em execução e gestão de obras no setor privado e projetos
+            particulares. Nos últimos anos, mergulhei na programação – especialmente Python – e comecei a criar soluções
+            automatizadas que economizam tempo, dinheiro e neurônio.</p>
+          <p>Acredito que a construção civil precisa evoluir, e eu tô aqui pra ajudar nessa virada. Se você precisa de
+            alguém que entenda tanto de concreto quanto de código, encontrou.</p>
+          <div class="about-stats">
+            <div class="stat-item"><i class="fas fa-briefcase"></i>
+              <div class="stat-text">
+                <h4>Experiência</h4>
+                <p>Gestão de Projetos</p>
+              </div>
+            </div>
+            <div class="stat-item"><i class="fas fa-robot"></i>
+              <div class="stat-text">
+                <h4>Especialidade</h4>
+                <p>Automação com IA</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <div class="stats-section">
+    <div class="container">
+      <div class="stats-container">
+        <div class="stat-counter tilt-card glass-card">
+          <div class="tilt-card-inner"><i class="fas fa-project-diagram"></i>
+            <div class="counter" data-target="150">0</div>
+            <h4>Projetos Concluídos</h4>
+          </div>
+        </div>
+        <div class="stat-counter tilt-card glass-card">
+          <div class="tilt-card-inner"><i class="fas fa-users"></i>
+            <div class="counter" data-target="85">0</div>
+            <h4>Clientes Satisfeitos</h4>
+          </div>
+        </div>
+        <div class="stat-counter tilt-card glass-card">
+          <div class="tilt-card-inner"><i class="fas fa-award"></i>
+            <div class="counter" data-target="12">0</div>
+            <h4>Prêmios Recebidos</h4>
+          </div>
+        </div>
+        <div class="stat-counter tilt-card glass-card">
+          <div class="tilt-card-inner"><i class="fas fa-robot"></i>
+            <div class="counter" data-target="35">0</div>
+            <h4>Automações Implementadas</h4>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <section id="skills" class="skills parallax-section">
+    <div class="parallax-bg"></div>
+    <div class="dynamic-background"></div>
+    <div class="container">
+      <div class="parallax-content">
+        <div class="section-header">
+          <h2>Minhas Habilidades</h2>
+          <div class="section-line"></div>
+        </div>
+        <div class="skills-content">
+          <div class="skills-text fade-in glass-card appear zoom-in" data-animation="zoom-in">
+            <h3>Competências Profissionais</h3>
+            <p>Como especialista em automações com IA no setor de construção civil, desenvolvo soluções que aumentam a
+              eficiência operacional e reduzem custos em projetos de engenharia.</p>
+          </div>
+          <div class="skills-bars fade-in appear">
+            <div class="skill-item">
+              <div class="skill-info">
+                <h4>Automação com IA</h4><span>95%</span>
+              </div>
+              <div class="skill-bar">
+                <div class="skill-progress" data-progress="95"></div>
+              </div>
+            </div>
+            <div class="skill-item">
+              <div class="skill-info">
+                <h4>Gestão de Projetos</h4><span>90%</span>
+              </div>
+              <div class="skill-bar">
+                <div class="skill-progress" data-progress="90"></div>
+              </div>
+            </div>
+            <div class="skill-item">
+              <div class="skill-info">
+                <h4>Planejamento de Obras</h4><span>85%</span>
+              </div>
+              <div class="skill-bar">
+                <div class="skill-progress" data-progress="85"></div>
+              </div>
+            </div>
+            <div class="skill-item">
+              <div class="skill-info">
+                <h4>Tecnologias BIM</h4><span>80%</span>
+              </div>
+              <div class="skill-bar">
+                <div class="skill-progress" data-progress="80"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="projects" class="projects-section">
+    <div class="container">
+      <div class="section-header">
+        <h2>Projetos Recentes</h2>
+        <p style="color: var(--text-secondary); margin-top: 1rem;">
+          Explorando a interseção entre engenharia civil e tecnologia
+        </p>
+      </div>
+
+      <!-- Filtros -->
+      <div class="project-filters">
+        <button class="filter-btn active" data-filter="all">Todos</button>
+        <button class="filter-btn" data-filter="engenharia">Engenharia</button>
+        <button class="filter-btn" data-filter="automacao">Automação</button>
+        <button class="filter-btn" data-filter="bim">BIM/Revit</button>
+      </div>
+
+      <!-- Carrossel -->
+      <div class="projects-carousel">
+        <!-- Botão Anterior -->
+        <button class="carousel-nav prev">
+          <i class="fas fa-chevron-left"></i>
+        </button>
+
+        <div class="projects-wrapper">
+          <!-- Projeto 1 - Clash Detective -->
+          <article class="project-card" style="--index: 0;" data-category="bim"
+            data-project-id="clash-detective-metalica">
+            <div class="project-image">
+              <img src="images/projects/clash-detective-metalica.png" alt="Clash Detective">
+              <div class="project-overlay"></div>
+            </div>
+            <div class="project-content">
+              <span class="project-category">Coordenação BIM</span>
+              <h3 class="project-title">Detecção de Interferências</h3>
+              <p class="project-description">
+                Análise completa de interferências entre estruturas metálicas e instalações usando Navisworks.
+              </p>
+              <div class="project-tags">
+                <span class="tag">Navisworks</span>
+                <span class="tag">Revit</span>
+              </div>
+            </div>
+          </article>
+
+          <!-- Projeto 2 - Nippon Seiki -->
+          <article class="project-card" style="--index: 1;" data-category="engenharia"
+            data-project-id="nippon-seiki-ampliacao">
+            <div class="project-image">
+              <img src="images/projects/nippon-seiki-main.jpg" alt="Nippon Seiki">
+              <div class="project-overlay"></div>
+            </div>
+            <div class="project-content">
+              <span class="project-category">Planejamento de Obras</span>
+              <h3 class="project-title">Ampliação Nippon Seiki</h3>
+              <p class="project-description">
+                Estudo técnico e modelagem em Revit para ampliação de unidade fabril em operação.
+              </p>
+              <div class="project-tags">
+                <span class="tag">Revit</span>
+                <span class="tag">MS Project</span>
+              </div>
+            </div>
+          </article>
+
+          <!-- Projeto 3 - Reforço Estrutural -->
+          <article class="project-card" style="--index: 2;" data-category="engenharia"
+            data-project-id="reforco-estrutura-guaranas">
+            <div class="project-image">
+              <img src="images/projects/reforco-guaranas-main.png" alt="Reforço Estrutural">
+              <div class="project-overlay"></div>
+            </div>
+            <div class="project-content">
+              <span class="project-category">Engenharia Estrutural</span>
+              <h3 class="project-title">Reforço Estrutural</h3>
+              <p class="project-description">
+                Análise técnica e projeto de reforço estrutural em edificação comercial com deficiências graves.
+              </p>
+              <div class="project-tags">
+                <span class="tag">Eberick</span>
+                <span class="tag">AutoCAD</span>
+              </div>
+            </div>
+          </article>
+        </div>
+
+        <!-- Botão Próximo -->
+        <button class="carousel-nav next">
+          <i class="fas fa-chevron-right"></i>
+        </button>
+      </div>
+
+      <!-- Indicadores -->
+      <div class="carousel-indicators">
+        <span class="indicator active"></span>
+        <span class="indicator"></span>
+        <span class="indicator"></span>
+      </div>
+
+      <!-- Botão Ver Todos -->
+      <button class="view-all-btn">
+        Ver Todos os Projetos
+      </button>
+    </div>
+  </section>
+
+  <!-- Indicadores -->
+  <div class="carousel-indicators">
+    <span class="indicator active"></span>
+    <span class="indicator"></span>
+    <span class="indicator"></span>
+    <span class="indicator"></span>
+  </div>
+
+  <!-- Botão ver todos -->
+  <button class="view-all-btn">
+    Ver Todos os Projetos
+  </button>
+  </section>
+
+  <section id="testimonials" class="testimonials">
+    <div class="dynamic-background"></div>
+    <div class="container">
+      <div class="section-header">
+        <h2>Depoimentos</h2>
+        <div class="section-line"></div>
+      </div>
+      <div class="testimonial-slider">
+        <div class="testimonial-container">
+          <div class="testimonial-item active">
+            <div class="testimonial-content glass-card">
+              <div class="testimonial-text"><i class="fas fa-quote-left"></i>
+                <p>Daniel implementou um sistema de automação que reduziu nossos custos operacionais em 30%. Sua
+                  expertise em IA aplicada à engenharia civil é impressionante.</p>
+              </div>
+              <div class="testimonial-author">
+                <div class="author-img"><img src="images/32.jpg" alt="Cliente"></div>
+                <div class="author-info">
+                  <h4>Ricardo Mendes</h4>
+                  <p>Diretor de Operações, Construtora XYZ</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="testimonial-controls">
+          <button class="testimonial-prev"><i class="fas fa-chevron-left"></i></button>
+          <div class="testimonial-dots"><span class="dot active" data-slide="0"></span></div>
+          <button class="testimonial-next"><i class="fas fa-chevron-right"></i></button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="economy" class="economy">
+    <div class="container">
+      <div class="section-header">
+        <h2>Simulador de Economia com IA</h2>
+        <div class="section-line"></div>
+      </div>
+      <div class="economy-content">
+        <div class="economy-simulator fade-in glass-card appear zoom-in" data-animation="zoom-in">
+          <div class="economy-intro">
+            <h3>Descubra quanto você pode economizar</h3>
+            <p>A automação com IA pode reduzir custos e aumentar a eficiência nos seus projetos de construção civil.
+              Simule agora mesmo o potencial de economia!</p>
+          </div>
+          <div class="economy-simulator-container">
+            <div class="simulator-controls">
+              <form id="economyForm" class="glass-card">
+                <div class="form-group slider-group"><label for="projectValue">Valor do Projeto (R$)</label>
+                  <div class="slider-container"><input type="range" id="projectValueSlider" min="50000" max="10000000"
+                      step="50000" value="500000">
+                    <div class="value-display"><input type="number" id="projectValue" name="projectValue" value="500000"
+                        min="50000" max="10000000"></div>
+                  </div>
+                  <div class="slider-markers"><span>R$ 50 mil</span><span>R$ 10 milhões</span></div>
+                </div>
+                <div class="form-group"><label for="automationLevel">Nível de Automação Desejado</label>
+                  <div class="automation-options">
+                    <div class="automation-option"><input type="radio" id="automationLow" name="automationLevel"
+                        value="low" checked=""><label for="automationLow"><i
+                          class="fas fa-robot"></i><span>Básico</span><small>Automações simples</small></label></div>
+                    <div class="automation-option"><input type="radio" id="automationMedium" name="automationLevel"
+                        value="medium"><label for="automationMedium"><i class="fas fa-robot"></i><i
+                          class="fas fa-robot small"></i><span>Intermediário</span><small>Automações
+                          avançadas</small></label></div>
+                    <div class="automation-option"><input type="radio" id="automationHigh" name="automationLevel"
+                        value="high"><label for="automationHigh"><i class="fas fa-robot"></i><i
+                          class="fas fa-robot"></i><i class="fas fa-robot"></i><span>Completo</span><small>IA integrada
+                          total</small></label></div>
+                  </div>
+                </div>
+                <button type="submit" class="btn btn-primary btn-glass simulator-submit"><i
+                    class="fas fa-calculator"></i> Calcular Economia</button>
+              </form>
+            </div>
+            <div class="simulator-results glass-card">
+              <div class="chart-container"><canvas id="economyChart"></canvas>
+                <div class="chart-placeholder"><i class="fas fa-chart-bar"></i>
+                  <p>O gráfico será exibido após o cálculo</p>
+                </div>
+              </div>
+              <div id="economyResult" class="economy-result">
+                <div class="economy-metrics">
+                  <div class="metric">
+                    <h4>Economia Estimada</h4><span class="metric-value" id="savingsValue">R$ 0</span>
+                  </div>
+                  <div class="metric">
+                    <h4>ROI Estimado</h4><span class="metric-value" id="roiValue">0x</span>
+                  </div>
+                  <div class="metric">
+                    <h4>Tempo de Implementação</h4><span class="metric-value" id="timeValue">-</span>
+                  </div>
+                </div>
+                <div id="economyAnalysis" class="economy-analysis">
+                  <p>Preencha os dados e clique em "Calcular" para ver sua economia potencial.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" class="contact">
+    <div class="dynamic-background"></div>
+    <div class="container">
+      <div class="section-header">
+        <h2>Entre em Contato</h2>
+        <div class="section-line"></div>
+      </div>
+      <div class="contact-content">
+        <div class="contact-info fade-in glass-card appear">
+          <h3>Informações de Contato</h3>
+          <div class="contact-item"><i class="fas fa-phone"></i>
+            <p>(92) 98552-8345</p>
+          </div>
+          <div class="contact-item"><i class="fas fa-envelope"></i>
+            <p>daniel.alves66@hotmail.com</p>
+          </div>
+          <div class="contact-item"><i class="fas fa-map-marker-alt"></i>
+            <p>Manaus, AM</p>
+          </div>
+          <div class="social-links">
+            <a href="#" class="social-link"><i class="fab fa-linkedin"></i></a>
+            <a href="#" class="social-link"><i class="fab fa-github"></i></a>
+            <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
+          </div>
+        </div>
+        <div class="contact-form fade-in appear">
+          <h3>Envie uma Mensagem</h3>
+          <form id="contactForm" class="glass-card">
+            <div class="form-group"><input type="text" id="name" name="name" placeholder="Seu Nome" required></div>
+            <div class="form-group"><input type="email" id="email" name="email" placeholder="Seu E-mail" required></div>
+            <div class="form-group"><input type="text" id="subject" name="subject" placeholder="Assunto" required></div>
+            <div class="form-group"><textarea id="message" name="message" placeholder="Sua Mensagem"
+                required></textarea></div>
+            <button type="submit" class="btn btn-primary btn-glass">Enviar Mensagem</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="container">
+      <div class="footer-content">
+        <div class="footer-logo">
+          <h3>Daniel Alves</h3>
+          <p>Engenheiro Civil</p>
+        </div>
+        <div class="footer-links">
+          <h4>Links Rápidos</h4>
+          <ul>
+            <li><a href="#home">Início</a></li>
+            <li><a href="#about">Sobre</a></li>
+            <li><a href="#skills">Habilidades</a></li>
+            <li><a href="#contact">Contato</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>© 2025 Daniel Alves. Todos os direitos reservados.</p>
+      </div>
+    </div>
+  </footer>
+
+  <div class="project-modal-overlay" id="projectModal">
+    <div class="project-modal">
+      <div class="modal-header">
+        <span class="modal-category" id="modalCategory"></span>
+        <button class="modal-close">✖</button>
+      </div>
+      <div class="modal-content">
+        <div class="modal-image-section">
+          <img class="modal-main-image" id="modalMainImage" src="" alt="">
+        </div>
+        <div class="modal-info-section">
+          <h2 class="modal-title" id="modalTitle"></h2>
+          <p class="modal-description" id="modalDescription"></p>
+          <div class="project-details">
+            <div class="detail-section">
+              <h3>Tecnologias Utilizadas</h3>
+              <div class="tech-list" id="modalTechnologies"></div>
+            </div>
+            <div class="detail-section" id="challengesSection">
+              <h3>Desafios e Soluções</h3>
+              <p id="modalChallenges"></p>
+            </div>
+            <div class="detail-section" id="resultsSection">
+              <h3>Resultados Alcançados</h3>
+              <p id="modalResults"></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <style>
+    /* CORREÇÃO EMERGENCIAL - CARROSSEL */
+    .projects-carousel {
+      overflow-x: auto !important;
+      overflow-y: hidden !important;
+      padding: 2rem 0 !important;
+    }
+
+    .projects-wrapper {
+      display: flex !important;
+      gap: 2rem !important;
+      padding: 0 2rem !important;
+      width: max-content !important;
+    }
+
+    .project-card {
+      flex: 0 0 350px !important;
+      opacity: 1 !important;
+      display: block !important;
+    }
+
+    /* Esconde botões que não funcionam */
+    .carousel-nav,
+    .carousel-indicators {
+      display: none !important;
+    }
+
+    /* CORREÇÃO - IMAGENS NO MODAL */
+    .modal-main-image {
+      width: 100% !important;
+      height: auto !important;
+      max-height: 70vh !important;
+      object-fit: contain !important;
+    }
+
+    .modal-image-section {
+      display: flex !important;
+      align-items: center !important;
+      justify-content: center !important;
+      padding: 1rem !important;
+    }
+
+    /* FORÇA DARK MODE SEMPRE */
+    body {
+      background: #0a0a0a !important;
+      color: #f5f5f5 !important;
+    }
+
+    .theme-toggle {
+      display: none !important;
+      /* Esconde o botão por enquanto */
+    }
+
+    /* Corrige cards brancos */
+    .glass-card,
+    .project-card,
+    .about-text,
+    .skills-text {
+      background: rgba(20, 20, 20, 0.8) !important;
+      color: #f5f5f5 !important;
+    }
+  </style>
+
+  <style>
+    /* MANTÉM TUDO QUE JÁ ESTAVA BOM */
+    body,
+    body.dark-mode {
+      background: #0a0a0a !important;
+      color: #f5f5f5 !important;
+      font-family: 'Poppins', sans-serif !important;
+    }
+
+    p,
+    span {
+      color: #f5f5f5 !important;
+    }
+
+
+    /* 1. GRID MAIS VISÍVEL */
+    body::before {
+      content: '';
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background-image:
+        linear-gradient(rgba(255, 107, 53, 0.08) 1px, transparent 1px),
+        linear-gradient(90deg, rgba(255, 107, 53, 0.08) 1px, transparent 1px);
+      background-size: 30px 30px;
+      pointer-events: none;
+      z-index: 0;
+    }
+
+    /* 2. MODAL COM FUNDO ESCURO SÓLIDO */
+    .project-modal {
+      background: rgba(10, 10, 10, 0.98) !important;
+      /* Quase opaco */
+      backdrop-filter: blur(20px) !important;
+    }
+
+    .modal-info-section {
+      background: rgba(5, 5, 5, 0.95) !important;
+      /* Fundo bem escuro */
+    }
+
+    .detail-section {
+      background: rgba(20, 20, 20, 0.9) !important;
+      /* Menos transparente */
+      border: 1px solid rgba(255, 107, 53, 0.2) !important;
+    }
+
+    /* 3. ÁREA DE CONTATOS MELHORADA */
+    .contact-info,
+    .contact-form form {
+      background: rgba(20, 20, 20, 0.9) !important;
+      backdrop-filter: blur(10px) !important;
+      padding: 2.5rem !important;
+      border-radius: 20px !important;
+      border: 1px solid rgba(255, 107, 53, 0.2) !important;
+    }
+
+    /* 3. REMOVE BRILHO AZUL - ADICIONA LARANJA */
+    .glass-card:hover,
+    .project-card:hover,
+    .stat-counter:hover,
+    .testimonial-content:hover {
+      box-shadow: 0 8px 32px rgba(255, 107, 53, 0.3) !important;
+      border-color: rgba(255, 107, 53, 0.3) !important;
+    }
+
+    /* Remove QUALQUER azul restante */
+    * {
+      --primary-color: #ff6b35 !important;
+      --primary-color-rgb: 255, 107, 53 !important;
+    }
+
+    .btn-primary {
+      background: #ff6b35 !important;
+      border-color: #ff6b35 !important;
+    }
+
+    .progress-bar {
+      background: #ff6b35 !important;
+    }
+
+
+    .contact-item {
+      display: flex !important;
+      align-items: center !important;
+      gap: 1rem !important;
+      margin-bottom: 1.5rem !important;
+      font-size: 1.1rem !important;
+    }
+
+    .contact-item i {
+      color: #ff6b35 !important;
+      font-size: 1.5rem !important;
+      width: 30px !important;
+    }
+
+    .form-group input,
+    .form-group textarea {
+      background: rgba(0, 0, 0, 0.5) !important;
+      border: 1px solid rgba(255, 107, 53, 0.3) !important;
+      color: #f5f5f5 !important;
+      padding: 1rem !important;
+      font-size: 1rem !important;
+      border-radius: 10px !important;
+      width: 100% !important;
+    }
+
+    .form-group input::placeholder,
+    .form-group textarea::placeholder {
+      color: #808080 !important;
+    }
+
+    .form-group input:focus,
+    .form-group textarea:focus {
+      outline: none !important;
+      border-color: #ff6b35 !important;
+      box-shadow: 0 0 0 3px rgba(255, 107, 53, 0.1) !important;
+    }
+
+    /* Botão enviar mensagem */
+    .contact-form .btn-primary {
+      width: 100% !important;
+      padding: 1rem !important;
+      font-size: 1.1rem !important;
+      font-weight: 600 !important;
+      margin-top: 1rem !important;
+    }
+
+    /* Ícones sociais */
+    .social-links {
+      display: flex !important;
+      gap: 1rem !important;
+      margin-top: 2rem !important;
+    }
+
+    .social-link {
+      width: 50px !important;
+      height: 50px !important;
+      border: 2px solid rgba(255, 107, 53, 0.3) !important;
+      border-radius: 50% !important;
+      display: flex !important;
+      align-items: center !important;
+      justify-content: center !important;
+      color: #ff6b35 !important;
+      font-size: 1.2rem !important;
+      transition: all 0.3s ease !important;
+    }
+
+    .social-link:hover {
+      background: #ff6b35 !important;
+      color: #0a0a0a !important;
+      transform: translateY(-3px) !important;
+    }
+
+    /* Mantém o resto que estava funcionando */
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+      color: #f5f5f5 !important;
+    }
+
+    .glass-card,
+    .hero-content,
+    .project-card,
+    .stat-counter {
+      background: rgba(20, 20, 20, 0.8) !important;
+      backdrop-filter: blur(10px) !important;
+    }
+
+    /* Partículas continuam como estavam */
+    .particle {
+      background: #ff6b35 !important;
+      opacity: 0.4 !important;
+    }
+  </style>
+
+  <script>
+    // 4. PARTÍCULAS COM MOVIMENTO ALEATÓRIO
+    document.querySelectorAll('.particle').forEach((particle, index) => {
+      // Posição horizontal aleatória
+      particle.style.left = `${Math.random() * 100}%`;
+
+      // Delay aleatório para cada partícula
+      particle.style.animationDelay = `${Math.random() * 15}s`;
+
+      // Duração aleatória (entre 10 e 20 segundos)
+      particle.style.animationDuration = `${10 + Math.random() * 10}s`;
+
+      // Tamanho aleatório (entre 2 e 6 pixels)
+      const size = 2 + Math.random() * 4;
+      particle.style.width = `${size}px`;
+      particle.style.height = `${size}px`;
+
+      // Opacidade variada
+      particle.style.opacity = 0.4 + Math.random() * 0.4;
+    });
+
+    // Adiciona movimento horizontal também
+    const style = document.createElement('style');
+    style.textContent =
+      @keyframes float - up {
+      0 % {
+        transform: translateY(100vh) translateX(0);
+            opacity: 0;
+      }
+      10 % {
+        opacity: 0.4;
+      }
+      50 % {
+        transform: translateY(0) translateX(${ Math.random() * 100 - 50
+      }px);
+    }
+    90 % {
+      opacity: 0.4;
+    }
+    100 % {
+      transform: translateY(-100vh) translateX(${ Math.random() * 100 - 50
+    }px);
+    opacity: 0;
+        }
+    }
+    ;
+    document.head.appendChild(style);
+  </script>
+
+  <!-- Font Awesome para os ícones -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+
+  <script>
+    // Scroll horizontal com mouse
+    const carousel = document.querySelector('.projects-carousel');
+    if (carousel) {
+      carousel.addEventListener('wheel', (e) => {
+        e.preventDefault();
+        carousel.scrollLeft += e.deltaY;
+      });
+    }
+
+    // Efeito hover nos cards
+    document.querySelectorAll('.project-card').forEach(card => {
+      card.style.cursor = 'pointer';
+      card.style.transition = 'all 0.3s ease';
+
+      card.addEventListener('mouseenter', () => {
+        card.style.transform = 'translateY(-10px) scale(1.02)';
+        card.style.boxShadow = '0 20px 40px rgba(255, 107, 53, 0.3)';
+      });
+
+      card.addEventListener('mouseleave', () => {
+        card.style.transform = 'translateY(0) scale(1)';
+        card.style.boxShadow = 'none';
+      });
+    });
+  </script>
+
+  <script>
+    // Garante que as partículas estão animadas
+    document.querySelectorAll('.particle').forEach((particle, index) => {
+      particle.style.left = `${Math.random() * 100}%`;
+      particle.style.animationDelay = `${index * 2}s`;
+      particle.style.animationDuration = `${15 + Math.random() * 10}s`;
+    });
+
+    // Remove qualquer classe light-mode
+    document.body.classList.remove('light-mode');
+    document.body.classList.add('dark-mode');
+  </script>
+
+  <!-- Scripts JavaScript -->
+  <script src="js/chart.js"></script>
+  <script src="js/glassmorphism.js"></script>
+  <script src="js/script.js"></script>
+  <script src="js/data/projects-data.js"></script>
+  <!-- Modal de projetos -->
+  <script src="js/modules/project-modal.js"></script>
+</body>
+
+</html>
